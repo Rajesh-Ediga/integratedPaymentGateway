@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "gRxJUF4MhFl7LzeeI9MOaRixPzb7usJ2zmUeCR9RpjyDPtnKwJcZDK+fdrv8g6QL+H7r9uEH4ygLyE40i0gmZg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\RAJE1KOR\\Desktop\\Vardhini-Project\\PaymentGatewayIntegration\\PaymentGatewayIntegration\\PaymentGatewayIntegration.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\RAJE1KOR\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "C:\\Users\\RAJE1KOR\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\RAJE1KOR\\.nuget\\packages\\swashbuckle.aspnetcore\\6.2.3\\swashbuckle.aspnetcore.6.2.3.nupkg.sha512",
+    "C:\\Users\\RAJE1KOR\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.2.3\\swashbuckle.aspnetcore.swagger.6.2.3.nupkg.sha512",
+    "C:\\Users\\RAJE1KOR\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.2.3\\swashbuckle.aspnetcore.swaggergen.6.2.3.nupkg.sha512",
+    "C:\\Users\\RAJE1KOR\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.2.3\\swashbuckle.aspnetcore.swaggerui.6.2.3.nupkg.sha512"
+  ],
+  "logs": []
+}
