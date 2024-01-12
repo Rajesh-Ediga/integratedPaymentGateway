@@ -1,0 +1,65 @@
+
+.payment-heading-container {
+    text-align: center;
+    margin: 20px 0; /* Adjust margin as needed */
+  }
+  /* Add these styles to your component's CSS file or global styles file */
+
+.go-to-cart-home {
+    background-color: #2196f3;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .go-to-cart-home:hover {
+    background-color: #0b7dda;
+  }
+  
+  /* Add these styles to your component's CSS file or global styles file */
+
+.go-to-cart-home, .add-to-cart-button {
+  background-color: #2196f3;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-right: 10px;
+  transition: background-color 0.3s ease-in-out;
+  position: relative;
+}
+
+.go-to-cart-home:hover, .add-to-cart-button:hover {
+  background-color: #0b7dda;
+}
+
+.cart-item-count {
+  background-color: #ff5722;
+  color: #fff;
+  font-size: 12px;
+  border-radius: 50%;
+  padding: 4px 8px;
+  position: absolute;
+  top: -8px;
+  right: -8px;
+}
+/* Add these styles to your component's CSS file or global styles file */
+
+.go-to-cart-home {
+  background-color: #2196f3;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s ease-in-out;
+  margin-left: 10px; /* Add margin for spacing */
+}
+
+.go-to-cart-home:hover {
+  background-color: #0b7dda;
+}
