@@ -16,8 +16,8 @@ export class PaymentService {
     await this.paypalScriptService.loadPayPalScript();
     // Now, paypal should be globally available
 
-    paypal.Buttons({
-      // Your existing PayPal configuration...
-    }).render('#paypal-button-container');
+    // paypal.Buttons({
+    //   // Your existing PayPal configuration...
+    // }).render('#paypal-button-container');
   }
 }
