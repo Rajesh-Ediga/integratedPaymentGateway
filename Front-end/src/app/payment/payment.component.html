@@ -1,8 +1,18 @@
 <!-- payment.component.html -->
 
-<div>
-    <h2>Payment</h2>
-    <button (click)="makePayment()">Proceed to Payment</button>
-  </div>
+<div id="paypal-button-container"></div>
   <!-- payment.component.html -->
 
+<div #paymentRef></div>
+<!-- your.component.html -->
+<div *ngIf="isPayeeDetailsPopupVisible" class="payee-details-popup">
+  <h2>Payee Details</h2>
+  <p>Transaction ID: {{ payeeDetails?.transactionId }}</p>
+  <p>Payer ID: {{ payeeDetails?.payerId }}</p>
+  <p>Status: {{ payeeDetails?.status }}</p>
+  <p>Name: {{ payeeDetails?.payeeName }}</p>
+  <p>Email: {{ payeeDetails?.email }}</p>
+  <p>PayerEmail: {{ payeeDetails?.payerEmail }}</p>
+  <!-- Add more details as needed -->
+  <button (click)="closePayeeDetailsPopup()">OK</button>
+</div>
