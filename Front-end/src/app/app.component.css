@@ -63,3 +63,16 @@
 .go-to-cart-home:hover {
   background-color: #0b7dda;
 }
+
+.payment-heading-container {
+  margin-bottom: 20px; /* Add the desired margin bottom */
+}
+
+.go-to-cart-home {
+  margin-right: 10px; /* Add the desired margin right */
+}
+
+/* Adjust the following styles based on your layout and preferences */
+.router-outlet-container {
+  margin-top: 20px; /* Add the desired margin top */
+}
